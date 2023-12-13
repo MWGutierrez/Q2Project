@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q2 Project</title>
+	<style>
+		#div1{
+			padding: 5px;
+			border: 5px solid white;
+			border-style: solid;
+		}
+		
+		#text1{
+			width: 900px;
+			padding: 15px;
+			border: 7px solid white;
+			margin: 20px;
+			background-color: #ADD8E6;
+		}
+		#div2, #div3{
+			width: 250px;
+			height: 170px;
+			padding: 20px;
+			border: 4px solid white;
+			margin: 10px;
+			background-color: #ADD8E6;
+		}
+		#text2, #text3, #text4{
+			width: 250px;
+			height: 185px;
+			padding: 20px;
+			border: 4px solid white;
+			margin: 10px;
+			background-color: #ADD8E6;
+			text-align: center;
+		}
+		#div4{
+			width: 500px;
+			height: 310px;
+			padding: 20px;
+			border: 4px solid white;
+			margin: 10px;
+			background-color: #ADD8E6;
+		}
+
+		body{
+			background-image: url('https://i.redd.it/6udxpc6eh5u41.jpg');
+			background-repeat: no-repeat;
+			background-size: 100%;	
+			background-attachment: scroll;
+		}
+		#grid{ 
+		display: grid;
+
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-content: center;
+		}
+
+		.container{
+			display: flex;
+			text-align: center;
+
+	</style>
+</head>
+<center>
+<body>
+	<div id=div1><h1><img src="h1.png" id="h1"></h1></div>
+
+	<div id="text1" class="container"><p><font size="3" face="Century Gothic">Our country, The Philippines, is naturally a tropical country with high temperatures. It is rare for us to feel the coldness because most of the time, we experience the heat our country experiences. Usually, from December to May, we may experience the cold weather because of the Hanging Amihan or otherwise known as the Northeast Monsoon. We experience a colder climate because of this monsoon. But unlike the whole country, some places which are in mountainous regions, experience a colder weather due to their height. this is because of the presence of a vast number of tropical forests and mountain ranges. In these cold areas, we appreciate the beauty of the mountains and the natural world with flowers, trees, and of course, the cold weather. 
+
+Here are 3 places which constantly have cold climates. </p>
+	</font></div>
+
+	<br><br>
+	
+	<div id="grid">
+		<div id="div2"><img src="https://sgp1.digitaloceanspaces.com/tz-mag-ph/wp-content/uploads/2020/06/010106061313/COM-FB-In-Image-Text-Danielle-2.png" width="250" height="165"></div>
+
+		<div id="div2"><img src="https://mediaim.expedia.com/destination/2/dd173e0d02a606f46cd659a66d92c036.jpg" width="250" height="165"></div>
+
+		<div id="div2"><img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/44/87.jpg" width="250" height="165"></div>
+
+		<div id="text2">
+			<h2><font size="4" face="Century Gothic">Baguio</font></h2>
+			<p><font size="2" face="Century Gothic">Baguio is a place known for it's cold climate and fresh sceneries. It is located in the mountain ranges of Benguet province. It is famous for their fresh strawberries and bright and vibrant colored flowers. The city's tourist attraction is the Burnham Park.</font></p>
+		</div>
+
+		<div id="text3">
+			<h3><font size="4" face="Century Gothic">Sagada</font></h3>
+			<p><font size="2" face="Century Gothic">Sagada is a town known for it's calming nature and interesting history. The hanging coffins in Echo Valley are displayed on cliffs with centuries-old coffins stacked on one another is the famous tourist attraction. </font></p>
+		</div>
+
+		<div id="text4">
+			<h3><font size="4" face="Century Gothic">Tagaytay</font></h3>
+			<p><font size="2" face="Century Gothic">Just like Baguio, it is known for it's cool climate and it is found near the active Taal Volcano which is surrounded by Taal Lake. The People's Park in the Sky which is the unfinished pesidential mansion and the recreational area, the Picnic Grove, are found here.</font></p>
+		</div>
+
+		<div id="div3"><img src="https://baguio.ph/wp-content/uploads/2020/10/Baguio-Strawberries.jpg" width="250" height="165"></div>
+
+		<div id="div3"><img src="sagada2.jpg" width="250" height="165"></div>
+
+		<div id="div3"><img src="https://travelinspires.org/wp-content/uploads/2019/11/Tagaytay-city-philippines-travel-guide.jpg)" width="250" height="165"></div>
+	</div>
+
+	<div id="div4">
+	<form>
+	<p><font face="Century Gothic" size="4">Which of these cold and natural places would you want to visit?</font></p>
+
+		<input type="checkbox" id="place1" name="place1" value="Baguio" />
+		<label for="place1"><font face="Century Gothic">Baguio</font></label><br>
+		<input type="checkbox" id="place2" name="place2" value="Sagada" />
+		<label for="place2"><font face="Century Gothic">Sagada</font></label><br>
+		<input type="checkbox" id="place3" name="place3" value="Tagaytay" />
+		<label for="place3"><font face="Century Gothic">Tagaytay</font></label><br>
+
+		<br>
+		<p><font face="Century Gothic" size="4">Where else would you want to go in the Philippines?</font></p>
+
+		<textarea rows="4" cols="30" placeholder="Type your comment here"></textarea>
+
+	<br>
+
+	<input type="submit" id="submit" name="submit" value="Submit Response">
+	</form>
+	</div>
+	<p>This links to : <a href="https://docs.google.com/document/d/1wiAsf4X8UlWMnz0sBurOUoxXWQDPOK8S-49PpXbcRHA/edit" target="_blank">Project References</a></p>
+</body>
+</center>
+</html>
